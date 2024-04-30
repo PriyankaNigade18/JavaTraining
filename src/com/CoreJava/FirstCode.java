@@ -16,6 +16,7 @@ public class FirstCode
 		//to call static method in different class
 		MethodsInJava.show();
 		
+		MethodDemo.test2();
 	
 	}
 	
