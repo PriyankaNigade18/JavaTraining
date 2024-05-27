@@ -1,0 +1,49 @@
+
+Array
+=============
+Array is static data structure
+Array is implemented in java as Object
+Array store same type data and are always fixed in size
+Collection of similar type of data we can hold using array
+Array is collection of data and Object
+Array stores data as per index value
+Array index always starts with 0
+Array doesn't provide any method
+To calculate length we have length variable in array
+
+
+
+Types of Array
+=====================
+1.Single dimensional array-[]
+array store data in continues locations
+
+2.Multi-dimensional array
+array store data in row and column wise
+
+Ways of Array declaration[row][col]
+=================================
+1.Using new keyword
+=====================
+Syntax
+==========
+datatype array_name[]=new datatype[size]
+
+int sid[]=new int[5];
+
+
+
+
+2.Using literals(constant value)
+
+
+
+
+
+
+
+
+
+
+
+
