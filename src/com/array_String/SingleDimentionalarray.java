@@ -31,6 +31,12 @@ public class SingleDimentionalarray {
 			System.out.println(sid[i]);
 		}
 		
+		System.out.println("***********Iteration using for each loop***********");
+
+		for(int i:sid)
+		{
+			System.out.println(i);
+		}
 		System.out.println("*****************************");
 		
 		String name[]=new String[3];
@@ -44,6 +50,16 @@ public class SingleDimentionalarray {
 		{
 			System.out.println(name[i]);
 		}
+		
+		System.out.println("***********Iteration using for each loop***********");
+
+		for(String i:name)
+		{
+			System.out.println(i);
+		}
+		
+		
+		
 		
 		System.out.println("*****************************");
 
@@ -59,10 +75,32 @@ public class SingleDimentionalarray {
 			System.out.println(marks[i]);
 		}
 		
+		System.out.println("***********Iteration using for each loop***********");
+
+		for(double i:marks)
+		{
+			System.out.println(i);
+		}
+		System.out.println("*********************************");
 		
+		//real data -Object-literal way
 		
+		Object data[]= {"Sarang","Pune",30,'M',89.89,98765543L};
+		System.out.println("Total record for this employee: "+data.length);//6
 		
+		System.out.println(data[3]);//'M'
 		
+		for(int i=0;i<data.length;i++)
+		{
+			System.out.println(data[i]);
+		}
+		
+		System.out.println("***********Iteration using for each loop***********");
+
+		for(Object i:data)
+		{
+			System.out.println(i);
+		}
 		
 		
 		

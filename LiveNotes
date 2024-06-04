@@ -36,7 +36,19 @@ int sid[]=new int[5];
 
 2.Using literals(constant value)
 
+============================================
+Itearation
+===============
+1.Using simple for loop
 
+2.Using for each loop
+====================
+
+
+for(type i:arrayname)
+{
+(i);
+}
 
 
 
