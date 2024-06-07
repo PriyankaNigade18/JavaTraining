@@ -50,8 +50,20 @@ public class MultiDArrayDemo1 {
 			System.out.println();//after one row
 		}
 		
-		
+		System.out.println("Iteration using for eachn loop");
 
+		
+		for(int i[]:arr2)//{10,20,30}
+		{
+			for(int j:i)
+			{
+				System.out.print(j+" ");//row wise logic
+			}
+			System.out.println();//next row
+			
+		}
+		
+		
 	}
 
 }
