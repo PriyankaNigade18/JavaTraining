@@ -11,6 +11,8 @@ public class TesrCar {
 		b1.refule();//inherited
 		b1.stop();//inherited
 		b1.addBreak();
+		b1.price();
+		
 		System.out.println("Scenario2: Parent lass ref and Parent class object");
 
 		Car c1=new Car();
@@ -18,6 +20,7 @@ public class TesrCar {
 		c1.refule();
 		c1.stop();
 		c1.addBreak();
+		c1.price();
 		
 		System.out.println("Scenario3: Parent lass ref and child class object");
 
@@ -26,6 +29,7 @@ public class TesrCar {
 		c2.refule();
 		c2.stop();
 		c2.addBreak();
+		c2.price();
 		System.out.println("***********************");
 		
 		Audi a1=new Audi();
